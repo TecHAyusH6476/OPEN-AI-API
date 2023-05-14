@@ -45,9 +45,7 @@ app.use('/api/categories', catRouter)
 app.use('/', (req, res) => {
   res.send('welcome to the server home page')
 })
-app.use('/map', (req, res) => {
-  res.send('welcome to the server home page lulu')
-})
+
 app.listen(process.env.PORT || 5000, () => {
   console.log('backend running')
 })
