@@ -40,7 +40,7 @@ app.use('/images', express.static(path.join(__dirname, './images')))
 app.use(express.json())
 app.use('/api/auth', authRouter)
 app.use('/api/users', userRouter)
-app.use('/api/posts', postRouter)
+app.use('/api/', postRouter)
 app.use('/api/categories', catRouter)
 app.use('/', (req, res) => {
   res.send('welcome to the server home page')
