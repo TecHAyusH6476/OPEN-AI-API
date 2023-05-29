@@ -69,6 +69,7 @@ const stringMap = {
   hello: 'Hi! How can I help you today?',
   helloo: 'Hi! How can I help you today?',
   hey: 'Hi! How can I help you today?',
+  heylo: 'Hi! How can I help you today?',
   hi: 'Hi! How can I help you today?',
   howareyou: 'Hi! I am good How can I help you today?',
   goodbye: 'Goodbye! Have a great day!',
@@ -91,8 +92,8 @@ const stringMap = {
   academics:
     'We have the following academics scenario for this session. Click on this link to get full information page: https://rkgit.edu.in/academics/ ',
   'Contact-details':
-    'Phone : 0120-2788273, 2788409  Email : registrar@rkgit.edu.in  ',
-  'Tollfree-number': '1800120777755',
+    'Phone = 0120-2788273, 2788409  Email = registrar@rkgit.edu.in ',
+  'Toll-free-number': '1800120777755',
   clubs:
     'We have a wide variety of clubs and organizations on campus! You can find a full list on our website. Some are listed : Literary Club, Science Club, Music Club…',
   sports:
