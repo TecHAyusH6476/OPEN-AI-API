@@ -68,6 +68,7 @@ router.get('/:id', async (req, res) => {
 const stringMap = {
   hello: 'Hi! How can I help you today?',
   helloo: 'Hi! How can I help you today?',
+  hey: 'Hi! How can I help you today?',
   hi: 'Hi! How can I help you today?',
   howareyou: 'Hi! I am good How can I help you today?',
   goodbye: 'Goodbye! Have a great day!',
@@ -89,14 +90,14 @@ const stringMap = {
     'The data can be available through this link : https://rkgit.edu.in/Training-and-Placements/ ',
   academics:
     'We have the following academics scenario for this session. Click on this link to get full information page: https://rkgit.edu.in/academics/ ',
-  'Contact details':
+  'Contact-details':
     'Phone : 0120-2788273, 2788409  Email : registrar@rkgit.edu.in  ',
-  'Tollfree number': '1800120777755',
+  'Tollfree-number': '1800120777755',
   clubs:
     'We have a wide variety of clubs and organizations on campus! You can find a full list on our website. Some are listed : Literary Club, Science Club, Music Club…',
   sports:
     'Our sports teams are doing great this season! Check out the schedule on our website.',
-  'alumni info':
+  'alumni-info':
     'Thank you for your interest in our alumni! Our alumni network is a valuable resource for students like you. Our alumni have gone on to achieve great things in various fields, and they are often willing to connect with current students. Follow the given link : https://rkgit.edu.in/Alumni/ ',
 
   'financial-aid':
