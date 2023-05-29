@@ -143,7 +143,7 @@ const stringMap = {
 router.get('/fetch/:stringParam', async (req, res) => {
   try {
     const stringParam = req.params.stringParam.toLowerCase() // convert input to lowercase
-    let mappedString = 'Sorry! I dont about that'
+    let mappedString = 'Sorry! I dont know about that'
 
     // Iterate over the keys in stringMap
     for (const key in stringMap) {
