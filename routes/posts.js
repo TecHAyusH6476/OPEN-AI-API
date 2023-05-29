@@ -67,6 +67,7 @@ router.get('/:id', async (req, res) => {
 })
 const stringMap = {
   hello: 'Hi! How can I help you today?',
+  helloo: 'Hi! How can I help you today?',
   hi: 'Hi! How can I help you today?',
   howareyou: 'Hi! I am good How can I help you today?',
   goodbye: 'Goodbye! Have a great day!',
