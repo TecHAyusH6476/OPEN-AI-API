@@ -67,6 +67,8 @@ router.get('/:id', async (req, res) => {
 })
 const stringMap = {
   hello: 'Hi! How can I help you today?',
+  hi: 'Hi! How can I help you today?',
+  howareyou: 'Hi! I am good How can I help you today?',
   goodbye: 'Goodbye! Have a great day!',
   thanks: 'You’re welcome! Anything else you need?',
   greetings: 'Greetings! How can I assist you today?',
@@ -129,10 +131,29 @@ const stringMap = {
     'In case of an emergency, please dial 911 or visit our emergency website for more information.',
 }
 // GET ALL POST
+// router.get('/fetch/:stringParam', async (req, res) => {
+//   try {
+//     const stringParam = req.params.stringParam
+//     const mappedString = stringMap[stringParam] || 'No mapping found'
+//     res.send(mappedString)
+//   } catch (err) {
+//     res.status(500).json(err)
+//   }
+// })
 router.get('/fetch/:stringParam', async (req, res) => {
   try {
-    const stringParam = req.params.stringParam
-    const mappedString = stringMap[stringParam] || 'No mapping found'
+    const stringParam = req.params.stringParam.toLowerCase() // convert input to lowercase
+    let mappedString = 'Sorry! I dont about that'
+
+    // Iterate over the keys in stringMap
+    for (const key in stringMap) {
+      // Check if the input string includes the key or vice versa
+      if (stringParam.includes(key) || key.includes(stringParam)) {
+        mappedString = stringMap[key] // assign the mapped value
+        break // exit the loop once a match is found
+      }
+    }
+
     res.send(mappedString)
   } catch (err) {
     res.status(500).json(err)
