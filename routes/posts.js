@@ -72,6 +72,7 @@ const stringMap = {
   heylo: 'Hi! How can I help you today?',
   hi: 'Hi! How can I help you today?',
   howareyou: 'Hi! I am good How can I help you today?',
+  howareyouu: 'Hi! I am good How can I help you today?',
   goodbye: 'Goodbye! Have a great day!',
   thanks: 'You’re welcome! Anything else you need?',
   greetings: 'Greetings! How can I assist you today?',
@@ -85,15 +86,14 @@ const stringMap = {
     'Our library has a vast collection of books, journals, and other resources for our students! Please visit our library for more information.',
   admissions:
     'If you’re interested in applying to our college, please visit our admissions website for more information : https://rkgit.edu.in/ ',
-  'virtual tour':
+  'virtual-tour':
     'Follow the link to our virtual tour : https://rkgit.edu.in/virtual-tour/virtual-tour/ ',
   placements:
     'The data can be available through this link : https://rkgit.edu.in/Training-and-Placements/ ',
   academics:
     'We have the following academics scenario for this session. Click on this link to get full information page: https://rkgit.edu.in/academics/ ',
-  'Contact-details':
-    'Phone = 0120-2788273, 2788409  Email = registrar@rkgit.edu.in ',
-  'Toll-free-number': '1800120777755',
+  contact: 'Phone = 0120-2788273, 2788409  Email = registrar@rkgit.edu.in ',
+  'toll-free-number': '1800120777755',
   clubs:
     'We have a wide variety of clubs and organizations on campus! You can find a full list on our website. Some are listed : Literary Club, Science Club, Music Club…',
   sports:
